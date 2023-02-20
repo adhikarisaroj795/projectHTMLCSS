@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+
+}
+.nav-list{
+    width: 50%;
+    background-color: rgb(128, 74, 189);
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+
+}
+.nav-list a:hover {
+    text-decoration: none;
+    color: grey;
+
+}
+.rightNav{
+    padding: 30px;
+
+    background-color: rgb(128, 74, 189);
+    text-align: center;
+    width: 50%;
+    align-items: center;
+}
+
+#box{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.contct{
+    background-color: black;
+    text-align: center;
+    color: wheat;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.buildingLogo{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 9px;
+    background-color:white;
+}
+.buildingLogo img{
+    width: 650px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 9px;
+     
+
+}
+
+.Itext{
+    text-align: center;
+    width: 50%;
+}
+.Itext a {
+    text-align: center;
+    padding: 30px;
+}
+.small-text{
+    color: black;
+    font-size: 20px;
+}
+.big-text{
+    font-size:25px ;
+}
+.flex-container{
+    
+    color: red;
+    display:flex;
+    border: 2px solid black;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; last ma lanu ko lagi*/
+}
+.flex-item{
+    background-color: red;
+    margin: 12px;
+    width: 150px;
+    height: 150px;
+
+}
+
