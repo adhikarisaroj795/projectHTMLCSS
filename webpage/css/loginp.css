@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.searchHolder{
+    
+    height:400px ;
+    background-image: url("outlogo.webp");
+    display: flex;
+     align-items: center; 
+    justify-content: center;
+    
+
+}
+.searchbar{
+    width: 330px;
+    border: 03px solid green;
+    padding: 08px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+#hox{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+}
+.displayContainer{
+    padding: 5px;
+    height: 1000px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.displayCards{
+    background-color:azure;
+    margin: 12px;
+    width: 500px;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.displayCards:hover{
+    box-shadow: 3.9px 7.8px hsl(0deg 0% 0% / 0.38);
+
+}
+.displayBody{
+    color: black;
+    padding: 5px;
+}
+.displayImg img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px 10px 0px 0px;
+
+}

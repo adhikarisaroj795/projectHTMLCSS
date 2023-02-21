@@ -21,7 +21,8 @@
 }
 .nav-list{
     width: 50%;
-    background-color: rgb(128, 74, 189);
+    
+    background-color: rgb(120, 70, 182);
     display: flex;
     align-items: center;
 
@@ -43,12 +44,14 @@
 
 }
 .rightNav{
-    padding: 30px;
-
-    background-color: rgb(128, 74, 189);
-    text-align: center;
+    /* padding: 30px; */
+   align-items: center;
+   padding: 50px;
+    background-color: rgb(120, 70, 182);
+     text-align: center;
     width: 50%;
-    align-items: center;
+   
+    /* align-items: center; */ */
 }
 
 #box{
@@ -103,20 +106,129 @@
 }
 .flex-container{
     
-    color: red;
+   padding: 5px;
     display:flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 45vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     /* justify-content: flex-end; last ma lanu ko lagi*/
 }
-.flex-item{
-    background-color: red;
+.item{
+    background-color: azure;
     margin: 12px;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    border-radius: 15px;
+    transition: 0.2s;
+   
 
+}
+.item:hover{
+    box-shadow: 3.9px 7.8px hsl(0deg 0% 0% / 0.38);
+
+}
+
+.item-img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.item-body h3{
+    margin: 5px;
+    color: black;
+
+}
+.item-body h5{
+    margin: 5px;
+    color: black;
+
+}
+.availableAd{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.red{
+    color: rgb(120, 70, 182);
+}
+.footer_up{
+    background-color: red;
+    display: flex;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_up h2{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background:  black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
