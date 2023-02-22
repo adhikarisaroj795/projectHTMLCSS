@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/loginp.css">
+    <link rel="stylesheet" href="css/signupF.css">
+    <link rel="stylesheet" href="css/room.css">
     <title>space</title>
 </head>
 <body>
@@ -23,10 +25,7 @@
             <li><a href="#contact" >Contact</a></li>
         </ul>
         <div class="rightNav">
-            <input type="text"  id="box" placeholder="Username">
-            <input type="text"  id="box" placeholder="Password">
-            <button class="btn1 btn-sm1"onclick="window.location.href = 'loginp.html';">Login</button>
-            <button class="btn1 btn-sm1">SignUp</button>
+            
         </div>
     </nav>
     
@@ -41,6 +40,119 @@
                 Showmore
             </button>
             
+        </div>
+        <div class="bodyb">
+            <div class="regF">
+                <form action="" method="post" class="formh">
+                    <h2>Please fill a form to rent a Room</h2>
+                    <div class="Rcontent">
+                        <div class="input-box">
+                            <label for="placeRent">Place to rent</label>
+                            <select name="Place" id="lang">
+                                <option value="kathmandu">kathmandu</option>
+                                <option value="pokhara">pokhara</option>
+                                <option value="jhapa">jhapa</option>
+                                <option value="morang">morang</option>
+                                <option value="illam">illam</option>
+                                <option value="dhankuta#">dhankuta</option>
+                                <option value="chitwan">chitwan</option>
+                                <option value="Dharan">Dharan</option>
+                                <option value="Bhaktapur">Bhaktapur</option>
+                              </select>
+                        </div>
+                
+            
+                        <div class="input-box">
+                            <label for="Location">Location to rent</label>
+                            <input type="text" placeholder="Enter location" name="email" required>
+                            <!-- <select name="languages" id="lang">
+                                <option value="javascript">JavaScript</option>
+                                <option value="php">PHP</option>
+                                <option value="java">Java</option>
+                                <option value="golang">Golang</option>
+                                <option value="python">Python</option>
+                                <option value="c#">C#</option>
+                                <option value="C++">C++</option>
+                                <option value="erlang">Erlang</option>
+                              </select> -->
+                        </div>
+                    
+                    
+                        <div class="input-box">
+                            <label for="Email">No of Rooms</label>
+                            <select name="languages" id="lang">
+                                <option value="javascript">01</option>
+                                <option value="php">02</option>
+                                <option value="java">03</option>
+                                <option value="golang">04</option>
+                                <option value="python">05</option>
+                                
+                              </select>
+                        </div>
+                    
+                    
+                        <div class="input-box">
+                            <label for="Phonenumber">Phone number</label>
+                            <!-- <select name="languages" id="lang">
+                                <option value="javascript">JavaScript</option>
+                                <option value="php">PHP</option>
+                                <option value="java">Java</option>
+                                <option value="golang">Golang</option>
+                                <option value="python">Python</option>
+                                <option value="c#">C#</option>
+                                <option value="C++">C++</option>
+                                <option value="erlang">Erlang</option>
+                              </select> -->
+                              <input type="tel" placeholder="Enter your number" name="number" required>
+                        </div>
+                 
+                
+                        <div class="input-box">
+                            <label for="Password">status</label>
+                            <select name="languages" id="lang">
+                                <option value="javascript">Married</option>
+                                <option value="php">Single</option>
+                                <option value="java">joint family</option>
+                                <option value="golang">living Together</option>
+                                <option value="python">Python</option>
+                                <option value="c#">C#</option>
+                                <option value="C++">C++</option>
+                                <option value="erlang">Erlang</option>
+                              </select>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cPassword">Profession</label>
+                            <input type="tel" placeholder="Enter your number" name="number" required>
+                            
+                        </div>
+                    
+                    
+                        <div class="input-box">
+                            <label for="cPassword">No. of Rentees</label>
+                            <select name="languages" id="lang">
+                                <option value="javascript">01</option>
+                                <option value="php">02</option>
+                                <option value="java">03</option>
+                                <option value="golang">04</option>
+                                <option value="python">05</option>
+                                
+                              </select>
+                        </div>
+
+                       
+                        
+                    </div>
+                    <div class="alert">
+                        <p>by clicking signup, you agre to our <a href="#">Terms,</a><a href="#">Privacy Policy,</a> and <a href="#">cookies policy.</a>you may receive SMS OTP from us use that OTP to login</p>
+    
+                    </div>
+                    <div class="button-container">
+                        <button type="submit">Search</button>
+                    </div>
+    
+                </form>
+            </div>
         </div>
 
 
